@@ -1,0 +1,236 @@
+<!-- Dylan Boyd 40538662 -->
+<!DOCTYPE html>
+<!--  ____                   
+/    \			
+  u  u|      _______    
+    \ |  .-''#%&#&%#``-.   
+   = /  ((%&#&#&%&VK&%&))  
+    |    `-._#%&##&%_.-'   
+ /\/\`--.   `-."".-'
+ |  |    \   /`./          
+ |\/|  \  `-'  /
+ || |   \     /         
+ -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dough Re Mi - Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="site-name">
+      <div class="gif-behind-text">
+        <h1>Dough Re Mi</h1>
+      </div>
+    </div>
+    <nav>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="deals.html">Deals</a></li>
+          <li><a href="makeyourownpizza.html">Make Your Own Pizza</a></li>
+          <li><a href="cart.html">Cart 🛒<span id="cart-count">0</span></a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="content-wrapper">
+      <h2>Our Menu</h2>
+      <section class="menu-category">
+        <button class="dropdown-btn">Pizzas</button>
+        <div class="dropdown-content">
+          <h3>Pizzas</h3>
+          <div class="row">
+            <!-- Cheese Pizza Card -->
+            <div>
+              <div>
+                <div class="card">
+                  <div class="card-image">
+                    <img src="imgs/magreeta.jpg" alt="Cheese Pizza">
+                    <span class="card-title">Cheese Pizza</span>
+                    <!-- https://frontstuff.io/should-you-chain-or-extend-css-classes
+              The tehcnique used here is class chaining, learned using the website above-->
+                    <a class="btn-floating halfway-fab waves-effect waves-light red add-to-cart"
+                      data-item="Cheese Pizza" data-price="10">
+                      <i class="material-icons">add</i>
+                    </a>
+                  </div>
+                  <div class="card-content">
+                    <p>Classic cheese with our signature sauce.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pepperoni Pizza Card -->
+              <div class="col s12 m6">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="imgs/peproni.jpg" alt="Pepperoni Pizza">
+                    <span class="card-title">Pepperoni Pizza</span>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red add-to-cart"
+                      data-item="Pepperoni Pizza" data-price="12">
+                      <i class="material-icons">add</i></a>
+                  </div>
+                  <div class="card-content">
+                    <p>Pepperoni slices on top of our classic cheese.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- BBQ Chicken Pizza Card -->
+              <div class="col s12 m6">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="imgs/bbqchick.jpg" alt="BBQ Chicken Pizza">
+                    <span class="card-title">BBQ Chicken Pizza</span>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red add-to-cart"
+                      data-item="BBQ Chicken Pizza" data-price="13">
+                      <i class="material-icons">add</i></a>
+                  </div>
+                  <div class="card-content">
+                    <p>BBQ sauce, chicken, onions, and cilantro.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Veggie Delight Card -->
+              <div class="col s12 m6">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="imgs/vegpizz.webp" alt="Veggie Pizza">
+                    <span class="card-title">Veggie Delight</span>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red add-to-cart"
+                      data-item="Veggie Pizzaa" data-price="8.99">
+                      <i class="material-icons">add</i></a>
+                  </div>
+                  <div class="card-content">
+                    <p>A mix of seasonal vegetables on a creamy white sauce.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </section>
+      <section class="menu-category">
+        <button class="dropdown-btn">Sides</button>
+        <div class="dropdown-content">
+          <h3>Sides</h3>
+          <ul>
+            <!-- Chicken Wings Card -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image">
+                  <img src="imgs/chickwings.webp" alt="Chicken Wings">
+                  <span class="card-title">Chicken Wings</span>
+                  <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                  <p>Chicken Wings in spicy hot wing sauce.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Garlic Bread Card -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image">
+                  <img src="imgs/gbread.jpg" alt="Garlic Bread">
+                  <span class="card-title">Garlic Bread</span>
+                  <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                  <p>Freshly baked garlic bread.</p>
+                </div>
+              </div>
+            </div>
+          </ul>
+      </section>
+
+      <section class="menu-category">
+        <button class="dropdown-btn">Desserts</button>
+        <div class="dropdown-content">
+          <h3>Desserts</h3>
+          <!-- Cookie Dough Bites Card -->
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-image">
+                <img src="imgs/doughbites.jpg" alt="Cookie Dough Bites">
+                <span class="card-title">Cookie Dough Bites</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+              </div>
+              <div class="card-content">
+                <p>Yummy cookie dough balls.</p>
+              </div>
+            </div>
+            <!-- Ice Ceam Card -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image">
+                  <img src="imgs/icecream.gif" alt="Ice Ceam">
+                  <span class="card-title">Ice Ceam</span>
+                  <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                  <p>Vanilla ice cream.</p>
+                </div>
+              </div>
+              </ul>
+      </section>
+
+      <section class="menu-category">
+        <button class="dropdown-btn">Drinks</button>
+        <div class="dropdown-content">
+          <h3>Drinks</h3>
+          <ul>
+            <!-- Water Card -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image">
+                  <img src="imgs/water.webp" alt="Water">
+                  <span class="card-title">Bottle of Water</span>
+                  <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                  <p>Bottle of water.</p>
+                </div>
+              </div>
+              <!-- Coke Card -->
+              <div class="col s12 m6">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="imgs/coke.jpg" alt="Coke">
+                    <span class="card-title">Can of Coka-Cola</span>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                        class="material-icons">add</i></a>
+                  </div>
+                  <div class="card-content">
+                    <p>Can of Coka-Cola.</p>
+                  </div>
+                </div>
+          </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer id="footer-content">
+    <section id="contact-info">
+      <h2>Contact Info</h2>
+      <p>Email: info@doughremi.com</p>
+      <p>Phone Number: 123-456-7890</p>
+      <p>Address: 123 Pizza St, Flavor Town</p>
+      <p>Fax Machine: 123-456-7891</p>
+    </section>
+    <section id="additional-links">
+      <a>FAQ</a>
+      <a href="https://www.google.com/maps">Locations</a>
+    </section>
+  </footer>
+
+</body>
+
+</html>

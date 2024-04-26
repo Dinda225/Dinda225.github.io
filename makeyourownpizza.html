@@ -1,0 +1,93 @@
+<!-- Dylan Boyd 40538662 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Make Your Own Pizza - Dough Re Mi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="site-name">
+      <div class="gif-behind-text">
+        <h1>Dough Re Mi</h1>
+      </div>
+    </div>
+    <nav>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="deals.html">Deals</a></li>
+          <li><a href="makeyourownpizza.html">Make Your Own Pizza</a></li>
+          <li><a href="cart.html">Cart 🛒<span id="cart-count">0</span></a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="content-wrapper">
+      <h2>Make Your Own Pizza</h2>
+      <form id="pizza-customization-form">
+        <section class="customization-section">
+          <h3>Choose Your Base</h3>
+          <select name="base" required>
+            <option value="">Select Your Base</option>
+            <option value="thin">Thin Crust</option>
+            <option value="thick">Thick Crust</option>
+            <option value="gluten_free">Gluten-Free</option>
+          </select>
+        </section>
+
+        <section class="customization-section">
+          <h3>Select Your Cheese</h3>
+          <select id="cheese-select" name="cheese" required>
+            <option value="">Select Your Cheese</option>
+            <option value="mozzarella">Mozzarella</option>
+            <option value="cheddar">Cheddar</option>
+            <option value="vegan">Vegan Cheese</option>
+          </select>
+        </section>
+
+        <section class="customization-section">
+          <h3>Add Toppings</h3>
+          <div class="toppings-checkboxes">
+            <input type="checkbox" id="pepperoni" name="toppings" value="pepperoni">
+            <label for="pepperoni">Pepperoni</label>
+
+            <input type="checkbox" id="mushrooms" name="toppings" value="mushrooms">
+            <label for="mushrooms">Mushrooms</label>
+
+            <input type="checkbox" id="olives" name="toppings" value="olives">
+            <label for="olives">Olives</label>
+          </div>
+
+        </section>
+        <div id="current-price">Current Price: $0</div>
+        <button type="submit">Order Your Pizza</button>
+      </form>
+    </div>
+  </main>
+
+  <footer id="footer-content">
+    <section id="contact-info">
+      <h2>Contact Info</h2>
+      <p>Email: info@doughremi.com</p>
+      <p>Phone Number: 123-456-7890</p>
+      <p>Address: 123 Pizza St, Flavor Town</p>
+      <p>Fax Machine: 123-456-7891</p>
+    </section>
+    <section id="additional-links">
+      <a>FAQ</a>
+      <a href="https://www.google.com/maps">Locations</a>
+    </section>
+  </footer>
+  <script src="price.js"></script>
+  <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<!-- Dylan Boyd 40538662 -->
+<!DOCTYPE html>
+<!-- The checkout screen is inspired by https://uiverse.io/SSpisso/kind-cobra-45 
+UIverse.io is an open source website that i found during the process of the development of this website-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart - Dough Re Mi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="site-name">
+      <div class="gif-behind-text">
+        <h1>Dough Re Mi</h1>
+      </div>
+    </div>
+    <nav>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="deals.html">Deals</a></li>
+            <li><a href="makeyourownpizza.html">Make Your Own Pizza</a></li>
+            <li><a href="cart.html">Cart 🛒<span id="cart-count">0</span></a></li>
+          </ul>
+      </nav>
+    </header>
+<main id="main-content">
+  <div class="container">
+    <div class="card cart">
+      <label class="title">CHECKOUT</label>
+      <div class="steps">
+        <div class="step">
+          <div>
+            <span>SHIPPING</span>
+            <p>12 Pizza Street, Flavour Town</p>
+            <p>Livingston, United Kingdom</p>
+          </div>
+          <hr>
+          <div>
+            <span>PAYMENT METHOD</span>
+            <p>Visa</p>
+            <p>**** **** **** 1234</p>
+          </div>
+          <hr>
+          <div class="promo">
+            <span>HAVE A PROMO CODE?</span>
+            <form class="form">
+              <input type="text" placeholder="Enter a Promo Code" class="input_field">
+              <button>Apply</button>
+            </form>
+          </div>
+          <hr>
+          <div class="payments">
+            <span>PAYMENT</span>
+            <div class="details">
+              <span>Subtotal:</span>
+              <span>$240.00</span>
+              <span>Shipping:</span>
+              <span>$10.00</span>
+              <span>Tax:</span>
+              <span>$30.40</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cart-items" id="cart-items-container">
+      <h2>Your Cart</h2>
+
+    </div>
+
+    <div class="card checkout">
+      <div class="footer item-total" id="cart-items-container">
+
+        <button class="checkout-btn">Checkout</button>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer id="footer-content">
+  <section id="contact-info">
+    <h2>Contact Info</h2>
+    <p>Email: info@doughremi.com</p>
+    <p>Phone Number: 123-456-7890</p>
+    <p>Address: 123 Pizza St, Flavor Town</p>
+    <p>Fax Machine: 123-456-7891</p>
+  </section>
+  <section id="additional-links">
+    <a>FAQ</a>
+    <a href="https://www.google.com/maps">Locations</a>
+  </section>
+</footer>
+
+<script src="price.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
